@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Cinema Landing Page</title>
+    <link rel="fontawesome" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+    <link rel="stylesheet" href=".css">
+</head>
+<body>
+    <div class="container">
+        <h2>Carousel Example</h2>  
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+                <img src="https://cdna.artstation.com/p/assets/images/images/007/463/302/large/michael-john-fetalino-21616339-1676230952396729-4268165725634930098-n.jpg?1506316852" alt="Los Angeles" style="width:100%;">
+            </div>
+      
+            <div class="item">
+              <img src="images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bc0df4bd-cbff-49cf-a350-661c428f82b3/deginbx-53155d4b-7d86-4eee-890d-78a4841e4e1f.png/v1/fit/w_828,h_1108,q_70,strp/godzilla_vs_kong_imax_1_day_poster_by_mnstrfrc_deginbx-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjU3MSIsInBhdGgiOiJcL2ZcL2JjMGRmNGJkLWNiZmYtNDljZi1hMzUwLTY2MWM0MjhmODJiM1wvZGVnaW5ieC01MzE1NWQ0Yi03ZDg2LTRlZWUtODkwZC03OGE0ODQxZTRlMWYucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.gIlSNbGCALsML9DeS6MsRPXZ7jCOG8mBs8yfU8fZveg">
+            </div>
+          
+            <div class="item">
+              <img src="https://cdn.marvel.com/content/1x/marvels_imax_digital_supplemental_v3_lg.jpg" alt="New york" style="width:100%;">
+            </div>
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    <header>
+        <h1>Welcome to Cinema</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Showtimes</a></li>
+                <li><a href="#">Tickets</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+                <div class="search-container">
+                    <form action="/action_page.php">
+                      <input type="text" placeholder="Search Movie..." name="search">
+                      <button type="submit">Go</button>
+                    </form>
+                  </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Experience the Magic of Cinema</h2>
+        <p>Discover the latest movies, enjoy comfortable seating, and indulge in delicious snacks.</p>
+        <a href="#" class="btn">Book Tickets</a>
+    </section>
+    <section class="movies">
+        <article class="entry-item" onclick>
+            <div class="entry-thumb">
+                <img src="https://cdna.artstation.com/p/assets/images/images/007/463/302/large/michael-john-fetalino-21616339-1676230952396729-4268165725634930098-n.jpg?1506316852" alt="Movie 1">
+                <div class="right-info">
+                    <span class="pg"></span>
+                </div>
+            </div>
+            <div class="entry-content">
+                <h4 class="entry-title">THE JOB</h4>
+                <div class="entry-date">Release: November 10, 2023</div>
+                <div class="entry-button">
+                    <a href>
+                        <i aria-hidden="true" class="fa-solid fa-play">
+                            ::before
+                        </i>
+                        "Trailer"
+                    </a>
+                    <a href="https://www.filmworldcinemas.com/amy_movie/wish/">
+                        <i aria-hidden="true" class="fa fa-exclamation">
+                          ::before
+                        </i>
+                        Detail
+                    </a>
+                </div>
+            </div>
+
+        </article>
+        <h2>Now Playing / Opening this week</h2>
+        <div class="movie">
+            <img src="https://cdna.artstation.com/p/assets/images/images/007/463/302/large/michael-john-fetalino-21616339-1676230952396729-4268165725634930098-n.jpg?1506316852" alt="Movie 1">
+            <h3>The Job</h3>
+            <p>Release: November 10, 2023</p>
+        </div>
+        <div class="movie">
+            <img src="https://tickmarq.s3.amazonaws.com/CACHE/images/veezi/posters/esquireimax-ST00000804-poster-1685655769/9877cd40aa5fd2837bf70b3d798f9bcb.jpg" alt="Movie 2">
+            <h3>Oppenheimer</h3>
+            <p>Release: November 23, 2023</p>
+        </div>
+        <div class="movie">
+            <img src="https://cdn.marvel.com/content/1x/marvels_imax_digital_supplemental_v3_lg.jpg" alt="Movie 3">
+            <h3>Marvels</h3>
+            <p>Release: November 11, 2023</p>
+        </div>
+        <div class="movie">
+            <img src="https://pbs.twimg.com/media/FWdMU3-WIAISG3T?format=jpg&name=large" alt="Movie 4">
+            <h3>The Exocrist</h3>
+            <p>Release: November 30, 2023</p>
+        </div>
+        <div class="movie">
+            <img src="https://i.ebayimg.com/images/g/q94AAOSwFWJk5Wo4/s-l1600.jpg" alt="Movie 5">
+            <h3>Freelance</h3>
+            <p>Release: November 20, 2023</p>
+        </div>
+        <div class="movie">
+            <img src="https://static.wikia.nocookie.net/imax/images/4/4a/Trolls_World_Tour_%282020%29_Poster.jpg/revision/latest?cb=20200819000308" alt="Movie 6">
+            <h3>Trolls-World Tour</h3>
+            <p>Release: December 21, 2023</p>
+        </div> 
+        <div class="movie">
+            <img src="https://reach-cinema-storage.nyc3.digitaloceanspaces.com/Adiree-2023-nollywire.jpg275454cb-9ceb-4aa2-986c-ed50dfbba63a" alt="Movie 4">
+            <h3>Adire</h3>
+            <p>Release: November 20, 2023</p>
+        </div>
+        <!--<div class="https://www.originalfilmart.com/cdn/shop/products/hunger_games_mockingjay_part_1_2014_original_film_art_5000x.jpg?v=1596694143">
+            <img src="" alt="Movie 5">
+            <h3>The Hunger Games</h3>
+            <p>Release: December 20, 2023</p>
+        </div>-->
+        <div class="movie">
+            <img src="https://reach-cinema-storage.nyc3.digitaloceanspaces.com/cJgF1vjiNoRAh5UePmiPfjrw6Iv[1].jpg38089355-b7af-4535-a4cb-14950fbc9be5" alt="Movie 6">
+            <h3>Journey To Bethlehem</h3>
+            <p>Release: December 24, 2023</p>
+        </div> 
+        <div class="movie">
+            <img src="https://assets-prd.ignimgs.com/2023/11/15/ags2-digital-ka-creative80-v3-lg-1700069245973.jpg" alt="Movie 6">
+            <h3>What If christmas special</h3>
+            <p>Release: December 22, 2023</p>
+        </div> 
+    </section>
+    <footer>
+        <p>&copy; 2022 Cinema. All rights reserved.</p>
+    </footer>
+</body>
+</html>
